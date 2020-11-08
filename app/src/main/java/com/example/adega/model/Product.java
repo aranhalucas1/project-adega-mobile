@@ -8,6 +8,12 @@ public class Product{
 
     public Product() {}
 
+    public Product(Integer id, String name, String price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
     public String getName() {
         return name;
     }

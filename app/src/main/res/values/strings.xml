@@ -2,4 +2,8 @@
     <string name="app_name">adega</string>
     <string name="add_product_button">Adicionar Produto</string>
     <string name="backButton">Voltar</string>
+    <string name="add_product_label">Adicionar produto ao banco de dados</string>
+    <string name="add_product_name">Nome do produto</string>
+    <string name="add_product_price">Preço do produto</string>
+    <string name="add_product_finalize">Adicionar</string>
 </resources>
