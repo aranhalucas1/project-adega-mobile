@@ -22,7 +22,7 @@
         android:id="@+id/product_input_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:inputType="text"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:hint="@string/add_product_name"
@@ -30,9 +30,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/product_input_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:hint="@string/add_product_price"
@@ -47,6 +48,6 @@
         android:layout_marginTop="32dp"
         android:text="@string/add_product_finalize"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/product_input_price" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
